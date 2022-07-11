@@ -1,0 +1,88 @@
+ros-noetic-realsense-gazebo-plugin (1.1.0-0focal) focal; urgency=high
+
+  * Merge branch 'pointcloud_ferrum' into 'ferrum-devel'
+    added methods to publish the pointcloud information
+    See merge request device/realsense_gazebo_plugin!14
+  * added methods to publish the pointcloud information
+  * Update readme to remove explicit mention to REEM-C
+  * Contributors: Sai Kishor Kothakota, Victor Lopez
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Thu, 30 Jan 2020 05:00:00 -0000
+
+ros-noetic-realsense-gazebo-plugin (1.0.4-0focal) focal; urgency=high
+
+  * Merge branch 'gazebo_xacro_ferrum' into 'ferrum-devel'
+    remove gazebo and URDF xacro
+    See merge request device/realsense_gazebo_plugin!12
+  * remove gazebo and URDF xacro
+  * Contributors: Sai Kishor Kothakota, Victor Lopez
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Tue, 10 Dec 2019 05:00:00 -0000
+
+ros-noetic-realsense-gazebo-plugin (1.0.3-0focal) focal; urgency=high
+
+  * Add SYSTEM to include_directories
+  * Contributors: Victor Lopez
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Tue, 05 Nov 2019 05:00:00 -0000
+
+ros-noetic-realsense-gazebo-plugin (1.0.2-0focal) focal; urgency=high
+
+  * Merge branch 'mesh-fix-ferrum' into 'ferrum-devel'
+    fixed the issue with mesh location
+    See merge request device/realsense_gazebo_plugin!10
+  * fixed the issue with mesh location
+  * Contributors: Adria Roig, Sai Kishor Kothakota
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Wed, 30 Oct 2019 04:00:00 -0000
+
+ros-noetic-realsense-gazebo-plugin (1.0.1-0focal) focal; urgency=high
+
+  * Merge branch 'multi-realsense-ferrum' into 'ferrum-devel'
+    Update plugin to support multiple realsense camera's
+    See merge request device/realsense_gazebo_plugin!7
+  * Update plugin to support multiple realsense camera's
+  * Contributors: Adria Roig, Sai Kishor Kothakota
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Wed, 30 Oct 2019 04:00:00 -0000
+
+ros-noetic-realsense-gazebo-plugin (1.0.0-0focal) focal; urgency=high
+
+  * Adapted to latest gazebo API changes
+  * Contributors: Jordan Palacios
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Tue, 10 Sep 2019 04:00:00 -0000
+
+ros-noetic-realsense-gazebo-plugin (0.0.3-0focal) focal; urgency=high
+
+  * Fix licenses for public release
+  * Contributors: Adria Roig
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Thu, 28 Mar 2019 04:00:00 -0000
+
+ros-noetic-realsense-gazebo-plugin (0.0.2-0focal) focal; urgency=high
+
+  * Merge branch 'realsense' into 'master'
+    Fix missing installation files
+    See merge request device/realsense_gazebo_plugin!2
+  * Fix missing installation files
+  * Contributors: Adria Roig
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Tue, 05 Mar 2019 05:00:00 -0000
+
+ros-noetic-realsense-gazebo-plugin (0.0.1-0focal) focal; urgency=high
+
+  * Rm unnecessary dependees
+  * Fix dependencies
+  * Merge branch 'realsense' into 'master'
+    Realsense
+    See merge request adriaroig/realsense_gazebo_plugin!1
+  * Rm unnecessary files
+  * Rm unneccessary files
+  * Delete CMakeLists.txt.user
+  * Initial commit
+  * Contributors: Adria Roig
+
+ -- Sergey Dorodnicov <sergey.dorodnicov@intel.com>  Fri, 01 Mar 2019 05:00:00 -0000
+
+
